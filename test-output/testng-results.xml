@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="94249" started-at="2021-03-02T18:14:32 IST" finished-at="2021-03-02T18:16:07 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="94249" started-at="2021-03-02T18:14:32 IST" finished-at="2021-03-02T18:16:07 IST">
+      <class name="Acardemy.Validatepage">
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String,java.lang.String)[pri:0, instance:Acardemy.Validatepage@ed9d034]" name="basepagenavigation" duration-ms="54045" started-at="2021-03-02T18:14:33 IST" data-provider="getdata" finished-at="2021-03-02T18:15:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String,java.lang.String)[pri:0, instance:Acardemy.Validatepage@ed9d034]" name="basepagenavigation" duration-ms="38003" started-at="2021-03-02T18:15:27 IST" data-provider="getdata" finished-at="2021-03-02T18:16:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cde@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8783]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Acardemy.Validatepage@ed9d034]" name="closebrowser" is-config="true" duration-ms="2086" started-at="2021-03-02T18:16:05 IST" finished-at="2021-03-02T18:16:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Acardemy.Validatepage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
